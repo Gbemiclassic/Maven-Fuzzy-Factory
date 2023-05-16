@@ -18,7 +18,6 @@ SELECT
 	MONTH(w.created_at) AS month, 
 	COUNT(DISTINCT w.website_session_id) AS sessions, 
 	COUNT(DISTINCT o.order_id) AS orders, 
- conversion_rate
 FROM website_sessions w
 	LEFT JOIN orders o
 		ON o.website_session_id = w.website_session_id
