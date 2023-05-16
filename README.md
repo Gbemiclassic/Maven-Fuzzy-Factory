@@ -1,7 +1,7 @@
 # <p align="center" style="margin-top: 0px;">  Maven Fuzzy Factory 
 
 <p align="center" style="margin-bottom: 0px !important;">
-<img src="P1 request mail.jpg" width="800" height="500">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/P1%20request%20mail.jpg" width="800" height="500">
 
 ---
 *This repository hosts the solutions to the Mid Course Project for the Advanced SQL for Analytics and Business Intelligence course by Maven Analytics.*
