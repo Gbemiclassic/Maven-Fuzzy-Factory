@@ -34,7 +34,7 @@ OBJECTIVES:
 
 
 ## Case Study Solution
-- [Analysis](https://github.com/Chisomnwa/SQL-Challenge-Case-Study-4---Data-Bank/blob/main/A.%20Customer%20Nodes%20Exploration.md)
+- [Analysis](https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Analysis.md)
 
    
 
