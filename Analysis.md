@@ -27,7 +27,7 @@ WHERE w.created_at < '2012-11-27' -- request date
 GROUP BY 1,2;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
+<p align="left" style="margin-bottom: 0px !important;">
 <img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q1.jpg">
 
 There has been a general upward trend in sessions and orders across the month
