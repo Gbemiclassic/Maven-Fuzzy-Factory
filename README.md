@@ -10,7 +10,7 @@
 ## 🧾 Table of Contents
 - [Business Case](#business-case)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
-- [Case Study Solution](#case-study-solutions)
+- [Case Study Solutions](#case-study-solutions)
 
 
    
@@ -33,7 +33,7 @@ OBJECTIVES:
 ---
 
 
-## Case Study Solution
+## Case Study Solutions
 - [Analysis](https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Analysis.md)
 
    
