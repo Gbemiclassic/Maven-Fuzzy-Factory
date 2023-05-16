@@ -14,10 +14,10 @@ Steps:
 
 ```sql
 SELECT
-     YEAR(w.created_at) AS year 
-    ,MONTH(w.created_at) AS month 
-    ,COUNT(DISTINCT w.website_session_id) AS sessions 
-    ,COUNT(DISTINCT o.order_id) AS orders 
+	YEAR(w.created_at) AS year, 
+	MONTH(w.created_at) AS month, 
+	COUNT(DISTINCT w.website_session_id) AS sessions, 
+	COUNT(DISTINCT o.order_id) AS orders, 
  conversion_rate
 FROM website_sessions w
 	LEFT JOIN orders o
