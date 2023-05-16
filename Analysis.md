@@ -58,8 +58,8 @@ GROUP BY 1,2;
 ```
 
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q2.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q2.jpg">
 
 We can also see an upward trend in sessions and orders across the month for both brand and nonbrand utm_campaign.
 
@@ -90,8 +90,8 @@ WHERE w.created_at < '2012-11-27'
 GROUP BY 1,2;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q3.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q3.jpg">
 
 
 While desktop devices had more sessions and orders than mobile devices, both devices saw an increase between March and November. 
@@ -114,8 +114,8 @@ FROM website_sessions
 WHERE website_sessions.created_at < '2012-11-27';
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q4a.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q4a.jpg">
 
 
 * Now, let's define our CASE statement logic with utm sources and referers. 
@@ -133,8 +133,8 @@ WHERE w.created_at < '2012-11-27'
 GROUP BY 1,2;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q4b.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q4b.jpg">
 
 We can see that our organic and direct type in sessions increased across the months. This shows that our brand is getting more and more popular with users.
 
@@ -162,8 +162,8 @@ WHERE w.created_at < '2012-11-27'
 GROUP BY 1,2;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q5.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q5.jpg">
 
 
 There has been a general upward trend in conversion rate across the month with increasing sessions and orders 
@@ -232,8 +232,8 @@ FROM nonbrand_test_sessions_w_orders
 GROUP BY 1; 
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q6a.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q6a.jpg">
 
 
 -- .0318 for /home, vs .0406 for /lander-1 
@@ -252,8 +252,8 @@ WHERE created_at < '2012-11-27'
 	AND utm_campaign = 'nonbrand'; 
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q6c.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q6c.jpg">
 
 -- 22,972 website sessions since the test
 
@@ -307,11 +307,8 @@ GROUP BY
 	website_session_id
 ;
 ```
-### Output:
-
 
 * Then, show the progression of the sessions to the thank you page (check out page)
-
 
 ```sql
 SELECT
@@ -331,11 +328,10 @@ FROM session_level_made_it_flagged
 GROUP BY 1;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q7a.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q7a.jpg">
 
-* Then, show the click rates across the pageview urls
-
+* Finally, show the click rates across the pageview urls
 
 ```sql
 SELECT
@@ -360,8 +356,8 @@ FROM session_level_made_it_flagged
 GROUP BY 1;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q7b.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q7b.jpg">
  
 
 ---
@@ -396,8 +392,8 @@ WHERE wp.created_at > '2012-09-10' -- stated in the requirement
 GROUP BY 1;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q8a.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q8a.jpg">
 
 -- $22.83 revenue per billing page seen for the old version
 -- $31.34 for the new version
@@ -413,8 +409,8 @@ WHERE pageview_url IN ('/billing','/billing-2')
 AND created_at BETWEEN '2012-10-27' AND '2012-11-27' -- past month;
 ```
 ### Output:
-<p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q8b.jpg">
+<p align="left" style="margin-bottom: 0px !important;">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q8b.jpg">
 
 -- 1,193 billing sessions past month
 -- LIFT: $8.51 per billing session
