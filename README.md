@@ -27,7 +27,7 @@ OBJECTIVES:
 ---
 ## Entity Relationship Diagram
 <p align="center" style="margin-bottom: 0px !important;">
-<img src="Entity Relationship Diagram.jpg">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Entity%20Relationship%20Diagram.jpg">
    
    
 ---
