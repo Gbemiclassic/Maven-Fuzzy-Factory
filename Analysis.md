@@ -28,7 +28,7 @@ GROUP BY 1,2;
 ```
 ### Output:
 <p align="center" style="margin-bottom: 0px !important;">
-<img src="P1Q1.jpg">
+<img src="https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Images/Part%201%20Query%20Output/P1Q1.jpg">
 
 There has been a general upward trend in sessions and orders across the month
   
