@@ -11,7 +11,7 @@
 - [Business Case](#business-case)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Case Study Solutions](#case-study-solutions)
-
+- [Extra Resources](#extra-resources)
 
    
 ## Business Case
@@ -36,7 +36,9 @@ OBJECTIVES:
 ## Case Study Solutions
 - [Analysis](https://github.com/Gbemiclassic/Maven-Fuzzy-Factory/blob/main/Analysis.md)
 
-   
+ ---
+ ## Extra Resources
+ - [Medium Article](https://medium.com/@gbemiclassic/maven-fuzzy-factory-mid-course-project-solutions-1c504c20e77f)   
 
    
    
